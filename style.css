@@ -1,0 +1,40 @@
+:root{
+    --bleufoncefond : #033664;
+    --bleuclairhover: #3984C8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    overflow: hidden;
+    background-color: var(--bleufoncefond);
+    
+}
+  
+li {
+    display: flex;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 3vh 1vw;
+    text-decoration: none;
+    width: 150px;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+
+li a:hover {
+    background-color: var(--bleuclairhover);
+    border-bottom: 4px solid #fff;
+}
