@@ -14,7 +14,7 @@
 }
 
 .section1 .section-image {
-    filter: brightness(0.7); /* Ajustez la valeur pour obtenir l'effet souhaité */
+    filter: brightness(1); /* Ajustez la valeur pour obtenir l'effet souhaité */
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -39,18 +39,18 @@ navbar{
     padding: 2vw;
 }
 
-ul {
+navbar ul {
     list-style: none;
     overflow: hidden;
     background-color: var(--bleufoncefond);
     
 }
   
-li {
+navbar li {
     display: flex;
 }
 
-li a {
+navbar li a {
     color: white;
     text-align: center;
     padding: 3vh 1vw;
@@ -62,7 +62,7 @@ li a {
     transition: 0.2s ease-in-out;
 }
 
-li a:hover {
+navbar li a:hover {
     background-color: var(--bleuclairhover);
     border-bottom: 4px solid #fff;
 }
@@ -97,7 +97,7 @@ li a:hover {
 
 /* FOOTER */
 
-.gauche{
+/* .gauche{
     background-color: #033664;
     float: left;
     width: 50%;
@@ -147,7 +147,75 @@ footer .droite p {
 .fa-location-pin, .fa-envelope, .fa-phone{
     margin-left: 5vw;
     margin-top: 20px;
+} */
+
+.container {
+    display: flex;
+  }
+  
+.box {
+    flex: 1;
+    /* height: 100px; */
+    background-color: #ccc;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
 }
+  
+.centrer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bio{
+    width: 600px;
+}
+
+.apropos-footer{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.footer-logos i{
+    margin: 20px;
+    margin-right: 180px;
+}
+
+.footer-infos{
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 21px
+}
+
+.footer-p li p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+/* .apropos-footer li a{
+    color: white;
+    text-align: center;
+    padding: 3vh 1vw;
+    text-decoration: none;
+    width: 150px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500; 
+}*/
+
+
 /* .copyright{
     display: flex;
     align-items: center;

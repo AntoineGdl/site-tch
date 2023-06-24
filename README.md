@@ -2,3 +2,4 @@
 
 - `Navbar`
 - `logo + image de fond`
+- `footer`
