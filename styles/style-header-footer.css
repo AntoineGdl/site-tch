@@ -19,20 +19,24 @@
 /* NAVBAR */
 navbar{
     position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 navbar ul {
     list-style: none;
     overflow: hidden;
     background-color: var(--bleufoncefond);} 
 navbar li {
-    display: flex;}
+    display: flex;
+}
 navbar li a {
+    /* display: flex; */
     color: white;
     text-align: center;
     padding: 3vh 1vw;
@@ -135,3 +139,12 @@ navbar li a:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     padding: 5px;}
+
+
+/* Styles spécifiques pour les écrans de taille <= 768 pixels */
+@media (max-width: 1300px) {
+    /* NAVBAR */
+}
+
+
+

@@ -95,3 +95,10 @@
     display: flex;
     justify-content: center;
 }
+
+/* Styles spécifiques pour les écrans de taille <= 768 pixels */
+@media screen and (max-width: 1310px) {
+    
+    
+ 
+ }
