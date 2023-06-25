@@ -13,3 +13,54 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     margin: 10px;}
+
+.section-tournoi-volvo {
+    background-color: #F7F7F7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.section-tournoi-volvo h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin: 10px;}
+.section-tournoi-volvo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 10px;}
+
+
+.section-interclubs {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.section-interclubs h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin: 10px;}
+.section-interclubs {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 10px;}
+
+/* TABLEAU */
+table {
+    border-collapse: collapse;
+    /* width: 100%; */
+    margin: 50px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    width: auto;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
