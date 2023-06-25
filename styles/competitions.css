@@ -51,16 +51,47 @@
 table {
     border-collapse: collapse;
     /* width: 100%; */
-    margin: 50px;
-  }
-  
-  th, td {
+    margin: 50px;  }
+th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
     width: auto;
-  }
-  
-  th {
+    text-transform: uppercase;}
+th {
     background-color: #f2f2f2;
-  }
+    text-transform: uppercase;}
+
+/* SECTION INFORMATIONS INTERECLUBS */
+.section-informations-interclubs{
+    background-color: #F7F7F7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.section-informations-interclubs h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin: 10px;}
+.section-informations-interclubs p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 10px;}
+
+/* SECTION TOURNOI JEUNES */
+.section-tournoi-jeunes{
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.section-tournoi-jeunes h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin: 10px;}
+.section-tournoi-jeunes p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 10px;}
