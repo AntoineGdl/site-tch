@@ -2,6 +2,7 @@
 .section1-page1{
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
 }
 .boite1{
     flex: 1;
@@ -96,9 +97,19 @@
     justify-content: center;
 }
 
-/* Styles spécifiques pour les écrans de taille <= 768 pixels */
-@media screen and (max-width: 1310px) {
-    
-    
- 
- }
+/* FOOTER*/
+@media screen and (max-width: 1000px){
+    .container{
+        flex-direction: column;
+    }
+    .box:nth-child(2){
+        background-color: #F7F7F7;
+        margin: 0;
+    }
+    .section1-page1{
+        flex-direction: column;
+    }
+    p.footer-bio{
+        margin: 10px;
+    }
+}

@@ -95,3 +95,12 @@ th {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     margin: 10px;}
+
+    @media screen and (max-width: 1000px) {
+        .box-grise:nth-child(2){
+            background-color: #fff;
+        }
+        .copyright-gris{
+            background-color: #fff;
+        }
+    }

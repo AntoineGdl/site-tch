@@ -11,11 +11,6 @@
     font-family: 'Lato', sans-serif;
     font-weight: 800;
     margin: 10px;}
-
-
-
-
-
 .form{
     margin-top: 3vh;
     display: flex;
@@ -38,5 +33,15 @@ label{
     padding: 15px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
+@media screen and (max-width: 1000px) {
+    .box-grise:nth-child(2){
+        background-color: #fff;
+    }
+    .copyright-gris{
+        background-color: #fff;
+    }
+}

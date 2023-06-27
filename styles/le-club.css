@@ -66,7 +66,8 @@
     font-weight: 400;
     margin: 10px;}
 .section-aides-pratique-sportive .p2{
-    width: 1100px;}
+    /* width: 1100px; */
+}
 .section-aides-pratique-sportive .p4 a{
     text-decoration: none;}
 
@@ -155,3 +156,11 @@
     font-weight: 800;
     margin: 10px;}
 
+@media screen and (max-width: 1000px) {
+    .box-grise:nth-child(2){
+        background-color: #fff;
+    }
+    .copyright-gris{
+        background-color: #fff;
+    }
+}

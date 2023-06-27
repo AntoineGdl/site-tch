@@ -24,3 +24,12 @@
     font-weight: 800;
     margin: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+    .box-grise:nth-child(2){
+        background-color: #fff;
+    }
+    .copyright-gris{
+        background-color: #fff;
+    }
+}

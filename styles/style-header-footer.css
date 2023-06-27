@@ -232,48 +232,74 @@ navbar li a:hover {
     }
     
 /* FOOTER */
-.container {
-    display: flex; }
-.box {
-    flex: 1;
-    background-color: #fff;
-    padding: 30px;
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section1-footer{
     font-family: 'Lato', sans-serif;
-    font-weight: 500;}  
-.centrer{
+    font-weight: 500;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;}
+    width: 50%;
+}
+.gris{
+    background-color: #f7f7f7;
+}
 .footer-bio{
-    width: 600px;margin: 20px;}
-.fa-facebook{
-    margin-top: 20px;
-    font-size: 1.2rem;
-    color: #033664;}
-.apropos-footer{
-    list-style: none;
-    text-decoration: none;}
-.footer-logos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 20px;}
-.footer-logos i{
+    width: 70%;
     margin: 20px;
-    margin-right: 180px;}
-.footer-infos{
-    position: absolute;
-    list-style: none;
-    text-decoration: none;
-    padding-top: 21px}
-.footer-p li p{
-    display: flex;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: var(--bleufoncefond);
+    margin: 15px;
+}
+
+.section2-footer{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
-    margin: 40px;}
+    width: 50%;
+}
+
+.section2-footer h1{
+    margin: 50px;
+    text-transform: uppercase;
+}
+.section2-footer ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-footer ul li i{
+    margin: 15px;
+}
+
+.section2-footer ul li i a{
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 670px){
+    .container-footer{
+        flex-direction: column;
+        
+    }
+    .section1-footer{
+        width: 100%;
+    }
+    .section2-footer{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    
+}
+
 .copyright{
     background-color: #fff;
     display: flex;
@@ -283,12 +309,6 @@ navbar li a:hover {
     font-weight: 500;
     padding: 5px;}
 
-.box-grise{
-    flex: 1;
-    background-color: #f7f7f7;
-    padding: 30px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;} 
 .copyright-gris{
     background-color: #f7f7f7;
     display: flex;
@@ -297,12 +317,3 @@ navbar li a:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     padding: 5px;}
-
-
-/* Styles spécifiques pour les écrans de taille <= 768 pixels */
-@media (max-width: 1300px) {
-    /* NAVBAR */
-}
-
-
-
